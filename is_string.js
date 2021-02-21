@@ -6,3 +6,12 @@ is_string = function(input) {
     };
 console.log(is_string('w3resource'));
 console.log(is_string([1, 2, 4, 0]));
+/***** other script ******/
+function is_string(input){
+  var recup = typeof(input);
+  if(recup === 'string')
+     return true;
+  return false;
+  //return recup;
+}
+is_string('test');
